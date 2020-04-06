@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <title>Memory Card Game</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Memory Game</h1>
-    <a href="#" class="headlink">Instructions</a>
-    <a href="#" class="headlink">Game</a>
+<head>
+  <title>Memory Card Game</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Raleway:400,500,600,700" rel="stylesheet">
+</head>
 
-    <h2>Instructions</h2>
-    <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simpy Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
-    <p>Besides being fun, playing Memory is a great way to keep your mind active! Like a muscle in your body, excersicing your brain is key to staying in top mental shape.</p>
-    <p>This game was developed by <a href="https://github.com/chavierto">Xavier Luj&aacute;n</a>.</p>
+<body>
 
-    <div>
-      <img src="images/back.png" alt="Queen of Diamonds">
-      <img src="images/back.png" alt="Queen of Hearts">
-      <img src="images/back.png" alt="King of Diamonds">
-      <img src="images/back.png" alt="King of Hearts">
-    </div>
-  </body>
+<header>
+  <h1>Memory Game</h1>
+</header>
+
+<nav>
+  <a href="#instructions" class="headlink">Instructions</a>
+  <a href="#game" class="headlink">Game</a>
+</nav>
+
+<main>
+  <h2 id"instructions">Instructions</h2>
+  <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simpy Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
+  <p>Besides being fun, playing Memory is a great way to keep your mind active. Like a muscle in your body, excersicing your brain is key to staying in top mental shape.</p>
+  <p>This game was developed by <a href="https://github.com/chavierto">Xavier Luj&aacute;n</a>.</p>
+
+  <div id="game">
+    <img src="images/back.png" alt="Queen of Diamonds">
+    <img src="images/back.png" alt="Queen of Hearts">
+    <img src="images/back.png" alt="King of Diamonds">
+    <img src="images/back.png" alt="King of Hearts">
+  </div>
+</main>
+
+<footer class="clearfix">
+  <p class="copyright">
+    Copyright 2020
+  </p>
+  <p class="message">
+    Created with <span class="name">&hearts;</span> by <span class="name">GA</span>
+  </p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
 </html>

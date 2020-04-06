@@ -1,19 +1,59 @@
+#instructions {
+  /* no styling, div ID used to link from nav bar */
+}
+
+#game {
+  /* no styling, div ID used to link from nav bar */
+}
+
+header {
+  background-color: #f15b31;
+  color: #ffffff;
+  padding: 30px 20px;
+}
+
+nav {
+  background-color: #00a6b3;
+  padding: 20px 0;
+}
+
 body {
   text-align: center;
+  margin: 0;
 }
+
 .headlink {
   font-family: "Raleway", sans-serif;
-  color: #F15B31;
+  color: #ffffff;
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 18px;
+  margin: 0 20px;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  text-transform: uppercase;
 }
+
+.headlink:hover {
+  color: white;
+}
+
+a {
+  color: #0D2C40;
+}
+
+a:hover {
+  border-color: white;
+  color: #f15b31;
+}
+
 h1 {
   font-family: "Raleway", sans-serif;
   letter-spacing: 1px;
-  color: #0D2C40;
   font-weight: 400;
   font-size: 45px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -22,10 +62,58 @@ h2 {
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 20px;
+  text-transform: uppercase;
+}
+
+main {
+  width: 850px;
+  margin: 35px auto;
 }
 
 p {
   font-family: "Droid Serif", serif;
   line-height: 26px;
   font-size: 18px;
+}
+
+footer {
+  font-family: "Raleway";
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: #0d2c40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+
+img {
+  margin: 40px 8px;
+}
+
+.copyright {
+  float: left;
+}
+
+.message {
+  float: right;
+}
+
+.copyright, .message {
+  font-family: inherit;
+}
+
+.name {
+  color: #F15B31;
+  font-weight: 700;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  font-size: 0;
 }
